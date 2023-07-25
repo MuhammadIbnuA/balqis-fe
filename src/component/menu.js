@@ -69,17 +69,17 @@ function App() {
         <input type="text" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Nama" style={{ marginRight: "1rem" }} />
         <input type="text" value={harga} onChange={(e) => setHarga(e.target.value)} placeholder="NIM" style={{ marginRight: "1rem" }} />
         <input type="text" value={kategori} onChange={(e) => setKategori(e.target.value)} placeholder="Program Studi" style={{ marginRight: "1rem" }} />
-        <button type="submit" style={{ backgroundColor: "blue", color: "white", padding: "0.5rem 1rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>{selectedMenuId ? "Update Data" : "Create Data"}</button>
+        <button type="submit" style={{ backgroundColor: "pink", color: "white", padding: "0.5rem 1rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>{selectedMenuId ? "Update Data" : "Create Data"}</button>
       </form>
 
       <h1>Data Mahasiswa</h1>
       <table style={{ margin: "0 auto", borderCollapse: "collapse" }}>
         <thead>
           <tr>
-            <th style={{ padding: "0.5rem", backgroundColor: "powderblue" }}>Nama</th>
-            <th style={{ padding: "0.5rem", backgroundColor: "powderblue" }}>NIM</th>
-            <th style={{ padding: "0.5rem", backgroundColor: "powderblue" }}>Program Studi</th>
-            <th style={{ padding: "0.5rem", backgroundColor: "powderblue" }}>Actions</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightPink" }}>Nama</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightPink" }}>NIM</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightPink" }}>Program Studi</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightPink" }}>Actions</th>
           </tr>
         </thead>
         <tbody>
